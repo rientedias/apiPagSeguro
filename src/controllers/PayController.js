@@ -62,7 +62,7 @@ module.exports = {
         // PGS.shipping({
         //     type: 3
         // });
-
+        
         PGS.shipping({
             type: 1,
             name: client.name,

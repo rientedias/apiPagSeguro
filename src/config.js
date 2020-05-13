@@ -5,6 +5,7 @@
 const pagseguro = require('pagseguro-nodejs');
 require('dotenv/config');
 
+//configurações de acesso
 const pag = new pagseguro({
     email: process.env.EMAIL,
     token: process.env.TOKEN_SANDBOX,

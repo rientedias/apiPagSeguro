@@ -1,4 +1,13 @@
-const porta = 3333;
+/**
+ * SERVER JS
+ * port
+ * express
+ * routes
+ * app
+ */
+
+
+const port = 3333;
 const express = require('express');
 const routes = require('./routes');
 
@@ -8,6 +17,6 @@ app.use(express.json());//Usando Json
 app.use(routes);//Usando o arquivo de rotas.
 
 
-app.listen(porta, () => {
-    console.log(`Executando... env:${process.env.NODE_ENV}`);
+app.listen(port, () => {
+    console.log('running server');
 });
